@@ -1,8 +1,11 @@
+'function declarations
 DECLARE FUNCTION peekb$ (addr&)
 DECLARE FUNCTION peekw$ (addr&)
 DECLARE FUNCTION peekd$ (addr&)
 DECLARE FUNCTION tell$ (flag%, bit%)
 
+
+'main
 CLS
 COLOR 15
 PRINT "System Information"
